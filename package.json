@@ -1,0 +1,25 @@
+{
+  "name": "telexbot",
+  "version": "1.0.0",
+  "description": "Bot for reposting telegram channel to twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TeleXBot"
+  },
+  "keywords": [
+    "telegram",
+    "x"
+  ],
+  "author": "astha",
+  "license": "ISC",
+  "dependencies": {
+    "cronjob": "^0.1.0",
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.3",
+    "twit": "^2.2.11"
+  }
+}
